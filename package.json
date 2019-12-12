@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^3.4.0",
+    "audio-decode": "^1.4.0",
+    "audiobuffer-to-wav": "^1.0.0",
+    "express": "^4.17.1",
+    "ogg.js": "^0.1.0",
+    "opus.js": "^0.1.1",
+    "ws": "^7.2.0"
+  }
+}
